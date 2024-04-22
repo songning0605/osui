@@ -1,9 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import BrandProvider from '@osui/brand-provider';
-import moment from 'moment';
-import 'moment/locale/zh-cn';
-moment.locale('zh-cn');
 import Calendar from '../src';
 
 export default {
