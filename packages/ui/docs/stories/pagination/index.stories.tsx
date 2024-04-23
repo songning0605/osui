@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import BrandProvider from '@osui/brand-provider';
@@ -38,7 +37,13 @@ export const Demo = () => {
             </Blockquote>
             <BrandProvider brand="icloud">
                 <p>默认状态</p>
-                <Pagination showQuickJumper defaultCurrent={2} total={70} onChange={onChange} onShowSizeChange={onShowSizeChange} />
+                <Pagination
+                    showQuickJumper
+                    defaultCurrent={2}
+                    total={70}
+                    onChange={onChange}
+                    onShowSizeChange={onShowSizeChange}
+                />
                 <br />
                 <Pagination showQuickJumper defaultCurrent={2} total={80} onChange={onChange} />
                 <br />
@@ -58,7 +63,19 @@ export const Demo = () => {
                 <Pagination showQuickJumper defaultCurrent={2} total={70} onChange={onChange} simple />
                 <br />
                 <p>隐藏sizeChange和quickJump</p>
-                <Pagination showQuickJumper={false} defaultCurrent={2} total={70} onChange={onChange} showSizeChanger={false} />
+                <Pagination
+                    showQuickJumper={false}
+                    defaultCurrent={2}
+                    total={70}
+                    onChange={onChange}
+                    showSizeChanger={false}
+                />
+                <br />
+                <p>只显示quickJump</p>
+                <Pagination onChange={onChange} defaultCurrent={4} total={40} />
+                <br />
+                <p>只显示sizeChange</p>
+                <Pagination onChange={onChange} defaultCurrent={4} total={51} showQuickJumper={false} />
                 <br />
             </BrandProvider>
         </div>

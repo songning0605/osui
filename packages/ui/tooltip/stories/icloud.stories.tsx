@@ -16,7 +16,7 @@ export const Demo = () => {
     const buttonWidth = 70;
 
     return (
-        <BrandProvider>
+        <BrandProvider brand="icloud">
             <div className="demo">
                 <div style={{marginLeft: buttonWidth, whiteSpace: 'nowrap', display: 'flex'}}>
                     <Tooltip placement="topLeft" title={text}>
