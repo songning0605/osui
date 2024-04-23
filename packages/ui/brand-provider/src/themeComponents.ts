@@ -79,7 +79,6 @@ export const components: ThemeConfig['components'] = {
     Tooltip: {
         colorBgBase: '#fff',
         // antd 5 在某个版本之后更改了 token 名
-        colorBgDefault: '#fff',
         colorBgSpotlight: '#fff',
         colorTextLightSolid: '#151B26',
     },

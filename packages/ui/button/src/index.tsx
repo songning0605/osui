@@ -95,18 +95,15 @@ const InternalButton: React.ForwardRefRenderFunction<unknown, ButtonProps> = (
     const cssVar = outTheme.designToken?.cssVar;
     const {token: outerToken, theme, hashId} = useToken();
     const [token] = useCacheToken(
-        theme,
+        theme as any,
         [prepareComponentToken(outerToken)],
         {
-            cssVar: !cssVar
-                ? undefined
-                : cssVar === true
-                    ? {prefix: 'ant'}
-                    : cssVar,
+            // eslint-disable-next-line no-negated-condition
+            cssVar: !cssVar ? undefined : (cssVar === true ? {prefix: 'ant'} : cssVar),
         }
     );
     const wrapCSSVar = useStyleRegister(
-        {theme, token, hashId, path: [prefixCls]},
+        {theme: theme as any, token, hashId, path: [prefixCls]},
         () => [
             genButtonStyle(prefixCls, token, cssVar, clsPrefix),
         ]

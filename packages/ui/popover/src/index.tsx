@@ -3,6 +3,7 @@ import {Popover as AntdPopover} from 'antd';
 import {PopoverProps as AntdPopoverProps} from 'antd/es/popover';
 import {IconCloseOutlined} from '@osui/icons';
 import classNames from 'classnames';
+import {TooltipRef} from 'antd/es/tooltip';
 import './index.less';
 
 const clsPrefix = 'osui-popover';
@@ -11,7 +12,7 @@ export interface PopoverProps extends AntdPopoverProps {
     showCloseIcon?: boolean;
 }
 
-const Popover: React.ForwardRefRenderFunction<HTMLElement, PopoverProps> = (props, ref) => {
+const Popover: React.ForwardRefRenderFunction<TooltipRef, PopoverProps> = (props, ref) => {
     let innerTitle = props.title;
     if (props.showCloseIcon) {
         innerTitle = (
@@ -35,4 +36,4 @@ const Popover: React.ForwardRefRenderFunction<HTMLElement, PopoverProps> = (prop
     );
 };
 
-export default React.forwardRef(Popover) as unknown as typeof AntdPopover & typeof Popover;
+export default React.forwardRef(Popover);

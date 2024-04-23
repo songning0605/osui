@@ -14,9 +14,11 @@ export interface CompoundedComponent extends React.ForwardRefExoticComponent<
     __ANT_SWITCH: boolean;
 }
 
-const Switch: CompoundedComponent = React.forwardRef(({className, ...restProps}, ref) => {
-    return <AntdSwitch ref={ref} className={classNames(clsPrefix, className)} {...restProps} />;
-}) as CompoundedComponent;
+// eslint-disable-next-line max-len
+const Switch: CompoundedComponent = React.forwardRef<HTMLButtonElement, AntdSwitchProps & React.RefAttributes<HTMLButtonElement>>(
+    ({className, ...restProps}, ref) => {
+        return <AntdSwitch ref={ref} className={classNames(clsPrefix, className)} {...restProps} />;
+    }) as CompoundedComponent;
 
 // eslint-disable-next-line no-underscore-dangle
 Switch.__ANT_SWITCH = true;
