@@ -3,9 +3,10 @@ import {mergeConfig} from 'vite';
 import {resolveInjection, LessInjection} from './lessInjection';
 
 export default (getAbsolutePath: (name: string) => any, __dirname: string) => {
-    const themeEnv = process.env.THEME;
+    //  const themeEnv = process.env.THEME;
 
     const resources = [getAbsolutePath('@osui/icloud-theme') + '/dist/antd-vars-patch.less']
+
 
     const config: StorybookConfig = {
         stories: [
