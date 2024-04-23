@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: false
-  excludeLinksFromLockfile: false
-
 overrides:
   '@types/react': 17.0.53
 
@@ -37,10 +33,10 @@ importers:
         version: 6.1.1
       '@reskript/cli-lint':
         specifier: 6.1.1
-        version: 6.1.1(eslint-plugin-import@2.29.1)(eslint@8.56.0)(styled-components@5.3.11)(stylelint@14.16.1)(typescript@4.9.5)
+        version: 6.1.1(eslint-plugin-import@2.29.1)(eslint@8.56.0)(react@17.0.2)(styled-components@5.3.11)(stylelint@14.16.1)(typescript@4.9.5)(webpack@5.90.0)
       '@reskript/config-lint':
         specifier: 6.1.1
-        version: 6.1.1(eslint-plugin-import@2.29.1)(eslint@8.56.0)(styled-components@5.3.11)(stylelint@14.16.1)(typescript@4.9.5)
+        version: 6.1.1(eslint-plugin-import@2.29.1)(eslint@8.56.0)(react@17.0.2)(styled-components@5.3.11)(stylelint@14.16.1)(typescript@4.9.5)(webpack@5.90.0)
       '@storybook/cli':
         specifier: ^7.5.1
         version: 7.6.11
@@ -251,7 +247,7 @@ importers:
         specifier: ^7.10.5
         version: 7.23.9(@babel/core@7.23.9)
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@reskript/cli':
         specifier: ^6.0.0
@@ -317,10 +313,10 @@ importers:
         specifier: ^7.10.5
         version: 7.23.9(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui/brand-provider
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@reskript/cli':
         specifier: ^6.0.0
@@ -366,7 +362,7 @@ importers:
         version: 4.9.5
       webpack:
         specifier: ^5.52.1
-        version: 5.90.0
+        version: 5.90.0(@swc/core@1.3.107)
 
   packages/ui/affix:
     devDependencies:
@@ -383,25 +379,25 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/button':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../button
       '@osui/divider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../divider
       '@osui/gap':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../gap
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -531,19 +527,19 @@ importers:
         specifier: ^7.10.5
         version: 7.23.9(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/divider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../divider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: 7.5.1
@@ -670,19 +666,19 @@ importers:
         specifier: ^7.10.5
         version: 7.23.9(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/divider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../divider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -793,10 +789,10 @@ importers:
         specifier: ^1.1.1
         version: 1.1.1(react@17.0.2)
       '@osui/highlight-text':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../highlight-text
       '@osui/select':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../select
       classnames:
         specifier: ^2.3.1
@@ -809,22 +805,22 @@ importers:
         specifier: ^7.10.5
         version: 7.23.9(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/divider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../divider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/markdown':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../markdown
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -951,16 +947,16 @@ importers:
         specifier: workspace:*
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@osui/tooltip':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../tooltip
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -1093,19 +1089,19 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/divider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../divider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -1238,25 +1234,25 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/divider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../divider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/space':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../space
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@osui/tooltip':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../tooltip
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -1370,7 +1366,7 @@ importers:
   packages/ui/brand-provider:
     dependencies:
       '@osui/empty':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../empty
     devDependencies:
       '@babel/cli':
@@ -1386,22 +1382,22 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: 'link:'
       '@osui/collapse':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../collapse
       '@osui/divider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../divider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -1531,28 +1527,28 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/divider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../divider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/markdown':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../markdown
       '@osui/menu':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../menu
       '@osui/text-overflow-tooltip':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../text-overflow-tooltip
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -1663,13 +1659,13 @@ importers:
   packages/ui/button:
     dependencies:
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/tooltip':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../tooltip
       classnames:
         specifier: ^2.3.1
@@ -1691,25 +1687,25 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/divider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../divider
       '@osui/flex-centered':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../flex-centered
       '@osui/gap':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../gap
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/markdown':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../markdown
       '@osui/space':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../space
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -1839,16 +1835,16 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -1987,31 +1983,31 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/col':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../col
       '@osui/flex-centered':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../flex-centered
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/markdown':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../markdown
       '@osui/row':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../row
       '@osui/table':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../table
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -2137,16 +2133,16 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -2276,16 +2272,16 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -2415,16 +2411,16 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -2547,16 +2543,16 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -2689,19 +2685,19 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/select':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../select
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -2827,16 +2823,16 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -3110,16 +3106,16 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -3242,16 +3238,16 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -3365,226 +3361,226 @@ importers:
         specifier: ^11.10.6
         version: 11.11.3(@types/react@17.0.53)(react@17.0.2)
       '@osui/affix':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../affix
       '@osui/alert':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../alert
       '@osui/anchor':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../anchor
       '@osui/auto-complete':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../auto-complete
       '@osui/avatar':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../avatar
       '@osui/back-top':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../back-top
       '@osui/badge':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../badge
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/breadcrumb':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../breadcrumb
       '@osui/button':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../button
       '@osui/calendar':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../calendar
       '@osui/card':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../card
       '@osui/carousel':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../carousel
       '@osui/cascader':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../cascader
       '@osui/checkbox':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../checkbox
       '@osui/col':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../col
       '@osui/collapse':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../collapse
       '@osui/config-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../config-provider
       '@osui/date-picker':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../date-picker
       '@osui/descriptions':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../descriptions
       '@osui/divider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../divider
       '@osui/drawer':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../drawer
       '@osui/dropdown':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../dropdown
       '@osui/empty':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../empty
       '@osui/flex-centered':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../flex-centered
       '@osui/form':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../form
       '@osui/gap':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../gap
       '@osui/grid':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../grid
       '@osui/highlight-text':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../highlight-text
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/image':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../image
       '@osui/input':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../input
       '@osui/input-number':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../input-number
       '@osui/joyride':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../joyride
       '@osui/layout':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../layout
       '@osui/list':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../list
       '@osui/markdown':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../markdown
       '@osui/mentions':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../mentions
       '@osui/menu':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../menu
       '@osui/message':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../message
       '@osui/modal':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../modal
       '@osui/notification':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../notification
       '@osui/pagination':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../pagination
       '@osui/popconfirm':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../popconfirm
       '@osui/popover':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../popover
       '@osui/progress':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../progress
       '@osui/quick-edit':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../quick-edit
       '@osui/radio':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../radio
       '@osui/rate':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../rate
       '@osui/result':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../result
       '@osui/row':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../row
       '@osui/segmented':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../segmented
       '@osui/select':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../select
       '@osui/skeleton':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../skeleton
       '@osui/slider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../slider
       '@osui/space':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../space
       '@osui/spin':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../spin
       '@osui/statistic':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../statistic
       '@osui/steps':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../steps
       '@osui/switch':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../switch
       '@osui/table':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../table
       '@osui/tabs':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../tabs
       '@osui/tag':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../tag
       '@osui/text-overflow-tooltip':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../text-overflow-tooltip
       '@osui/theme-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../theme-provider
       '@osui/time-picker':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../time-picker
       '@osui/timeline':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../timeline
       '@osui/tooltip':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../tooltip
       '@osui/transfer':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../transfer
       '@osui/tree':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../tree
       '@osui/tree-select':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../tree-select
       '@osui/typography':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../typography
       '@osui/upload':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../upload
       '@osui/version':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../version
       antd:
         specifier: ^5.8.6
@@ -3627,10 +3623,10 @@ importers:
         specifier: ^1.1.1
         version: 1.1.1(react@17.0.2)
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -3658,7 +3654,7 @@ importers:
         version: 7.6.11(react-dom@17.0.2)(react@17.0.2)(typescript@4.9.5)
       '@storybook/react-webpack5':
         specifier: ^7.5.1
-        version: 7.6.11(@babel/core@7.23.9)(react-dom@17.0.2)(react@17.0.2)(typescript@4.9.5)
+        version: 7.6.11(@babel/core@7.23.9)(@swc/core@1.3.107)(react-dom@17.0.2)(react@17.0.2)(typescript@4.9.5)
       '@storybook/testing-library':
         specifier: ^0.2.2
         version: 0.2.2
@@ -3754,25 +3750,25 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/button':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../button
       '@osui/divider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../divider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/space':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../space
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -3902,28 +3898,28 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/button':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../button
       '@osui/flex-centered':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../flex-centered
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/menu':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../menu
       '@osui/space':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../space
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -4053,34 +4049,34 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/button':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../button
       '@osui/divider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../divider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/modal':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../modal
       '@osui/popover':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../popover
       '@osui/select':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../select
       '@osui/table':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../table
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -4203,25 +4199,25 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/button':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../button
       '@osui/divider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../divider
       '@osui/gap':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../gap
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -4351,43 +4347,43 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/button':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../button
       '@osui/checkbox':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../checkbox
       '@osui/date-picker':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../date-picker
       '@osui/divider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../divider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/input':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../input
       '@osui/input-number':
         specifier: latest
         version: link:../input-number
       '@osui/radio':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../radio
       '@osui/select':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../select
       '@osui/switch':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../switch
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -4510,19 +4506,19 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/button':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../button
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -4645,19 +4641,19 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/col':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../col
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/row':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../row
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -4787,19 +4783,19 @@ importers:
         specifier: ^1.1.1
         version: 1.1.1(react@17.0.2)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/input':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../input
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -4922,16 +4918,16 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -5067,43 +5063,43 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/auto-complete':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../auto-complete
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/button':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../button
       '@osui/cascader':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../cascader
       '@osui/divider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../divider
       '@osui/flex-centered':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../flex-centered
       '@osui/form':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../form
       '@osui/gap':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../gap
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/select':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../select
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@osui/version':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../version
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -5223,7 +5219,7 @@ importers:
         specifier: ^1.1.1
         version: 1.1.1(react@17.0.2)
       '@osui/button':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../button
       classnames:
         specifier: ^2.3.1
@@ -5242,25 +5238,25 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/flex-centered':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../flex-centered
       '@osui/form':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../form
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/input':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../input
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -5396,25 +5392,25 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/button':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../button
       '@osui/divider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../divider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/markdown':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../markdown
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -5543,22 +5539,22 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/breadcrumb':
-        specifier: workspace:^3.1.0-alpha.1
+        specifier: workspace:^3.1.0-alpha.2
         version: link:../breadcrumb
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/menu':
-        specifier: workspace:^3.1.0-alpha.1
+        specifier: workspace:^3.1.0-alpha.2
         version: link:../menu
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -5669,7 +5665,7 @@ importers:
   packages/ui/list:
     dependencies:
       '@osui/spin':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../spin
       hoist-non-react-statics:
         specifier: ^3.3.2
@@ -5679,19 +5675,19 @@ importers:
         specifier: ^7.10.5
         version: 7.23.9(@babel/core@7.23.9)
       '@osui/avatar':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../avatar
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -5833,16 +5829,16 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -5968,16 +5964,16 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -6110,16 +6106,16 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -6242,7 +6238,7 @@ importers:
         specifier: ^1.1.1
         version: 1.1.1(react@17.0.2)
       '@osui/config-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../config-provider
       classnames:
         specifier: ^2.3.1
@@ -6264,22 +6260,22 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/button':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../button
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/markdown':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../markdown
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -6409,25 +6405,25 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/button':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../button
       '@osui/config-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../config-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/space':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../space
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -6550,19 +6546,19 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/button':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../button
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -6673,7 +6669,7 @@ importers:
   packages/ui/pagination:
     dependencies:
       '@osui/button':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../button
       classnames:
         specifier: ^2.3.1
@@ -6692,16 +6688,16 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -6824,22 +6820,22 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/button':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../button
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/message':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../message
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -6966,34 +6962,34 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/button':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../button
       '@osui/divider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../divider
       '@osui/form':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../form
       '@osui/gap':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../gap
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/input':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../input
       '@osui/markdown':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../markdown
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -7120,16 +7116,16 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -7243,10 +7239,10 @@ importers:
         specifier: ^1.1.1
         version: 1.1.1(react@17.0.2)
       '@osui/input':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../input
       '@osui/select':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../select
       classnames:
         specifier: ^2.3.1
@@ -7271,16 +7267,16 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -7410,16 +7406,16 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -7549,16 +7545,16 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -7684,16 +7680,16 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -7807,16 +7803,16 @@ importers:
         specifier: ^7.10.5
         version: 7.23.9(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -7933,16 +7929,16 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -8056,10 +8052,10 @@ importers:
         specifier: ^1.1.1
         version: 1.1.1(react@17.0.2)
       '@osui/popover':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../popover
       '@osui/tag':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../tag
       classnames:
         specifier: ^2.3.1
@@ -8081,22 +8077,22 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/space':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../space
       '@osui/spin':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../spin
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -8231,16 +8227,16 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -8367,25 +8363,25 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/divider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../divider
       '@osui/gap':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../gap
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/input-number':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../input-number
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -8512,19 +8508,19 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/button':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../button
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -8651,16 +8647,16 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -8783,25 +8779,25 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/button':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../button
       '@osui/col':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../col
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/row':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../row
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -8928,22 +8924,22 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/button':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../button
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/space':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../space
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -9076,16 +9072,16 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -9196,10 +9192,10 @@ importers:
   packages/ui/table:
     dependencies:
       '@osui/button':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../button
       '@osui/spin':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../spin
       classnames:
         specifier: ^2.3.1
@@ -9236,31 +9232,31 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/form':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../form
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/pagination':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../pagination
       '@osui/radio':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../radio
       '@osui/space':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../space
       '@osui/switch':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../switch
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -9396,34 +9392,34 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/button':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../button
       '@osui/divider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../divider
       '@osui/dropdown':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../dropdown
       '@osui/flex-centered':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../flex-centered
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/menu':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../menu
       '@osui/text-overflow-tooltip':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../text-overflow-tooltip
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -9537,13 +9533,13 @@ importers:
   packages/ui/tag:
     dependencies:
       '@osui/divider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../divider
       '@osui/input':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../input
       '@osui/tooltip':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../tooltip
       classnames:
         specifier: ^2.3.1
@@ -9574,16 +9570,16 @@ importers:
         specifier: ^11.8.1
         version: 11.11.0(@emotion/react@11.11.3)(@types/react@17.0.53)(react@17.0.2)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -9703,7 +9699,7 @@ importers:
   packages/ui/text-overflow-tooltip:
     dependencies:
       '@osui/tooltip':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../tooltip
     devDependencies:
       '@babel/cli':
@@ -9719,19 +9715,19 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/divider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../divider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -9842,10 +9838,10 @@ importers:
   packages/ui/theme-provider:
     dependencies:
       '@osui/dropdown':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../dropdown
       '@osui/menu':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../menu
       classname:
         specifier: ^0.0.0
@@ -9867,19 +9863,19 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/button':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../button
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -10009,22 +10005,22 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/divider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../divider
       '@osui/form':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../form
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -10157,16 +10153,16 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -10293,22 +10289,22 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/button':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../button
       '@osui/gap':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../gap
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -10431,16 +10427,16 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -10567,19 +10563,19 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/input':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../input
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -10709,16 +10705,16 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -10854,16 +10850,16 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -10974,223 +10970,223 @@ importers:
   packages/ui/ui:
     dependencies:
       '@osui/affix':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../affix
       '@osui/alert':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../alert
       '@osui/anchor':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../anchor
       '@osui/auto-complete':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../auto-complete
       '@osui/avatar':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../avatar
       '@osui/back-top':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../back-top
       '@osui/badge':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../badge
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/breadcrumb':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../breadcrumb
       '@osui/button':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../button
       '@osui/calendar':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../calendar
       '@osui/card':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../card
       '@osui/carousel':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../carousel
       '@osui/cascader':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../cascader
       '@osui/checkbox':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../checkbox
       '@osui/col':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../col
       '@osui/collapse':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../collapse
       '@osui/config-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../config-provider
       '@osui/date-picker':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../date-picker
       '@osui/descriptions':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../descriptions
       '@osui/divider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../divider
       '@osui/drawer':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../drawer
       '@osui/dropdown':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../dropdown
       '@osui/empty':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../empty
       '@osui/flex-centered':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../flex-centered
       '@osui/form':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../form
       '@osui/gap':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../gap
       '@osui/grid':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../grid
       '@osui/highlight-text':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../highlight-text
       '@osui/image':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../image
       '@osui/input':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../input
       '@osui/input-number':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../input-number
       '@osui/joyride':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../joyride
       '@osui/layout':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../layout
       '@osui/list':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../list
       '@osui/markdown':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../markdown
       '@osui/mentions':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../mentions
       '@osui/menu':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../menu
       '@osui/message':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../message
       '@osui/modal':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../modal
       '@osui/notification':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../notification
       '@osui/pagination':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../pagination
       '@osui/popconfirm':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../popconfirm
       '@osui/popover':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../popover
       '@osui/progress':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../progress
       '@osui/quick-edit':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../quick-edit
       '@osui/radio':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../radio
       '@osui/rate':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../rate
       '@osui/result':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../result
       '@osui/row':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../row
       '@osui/segmented':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../segmented
       '@osui/select':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../select
       '@osui/skeleton':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../skeleton
       '@osui/slider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../slider
       '@osui/space':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../space
       '@osui/spin':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../spin
       '@osui/statistic':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../statistic
       '@osui/steps':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../steps
       '@osui/switch':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../switch
       '@osui/table':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../table
       '@osui/tabs':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../tabs
       '@osui/tag':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../tag
       '@osui/text-overflow-tooltip':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../text-overflow-tooltip
       '@osui/theme-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../theme-provider
       '@osui/time-picker':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../time-picker
       '@osui/timeline':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../timeline
       '@osui/tooltip':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../tooltip
       '@osui/transfer':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../transfer
       '@osui/tree':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../tree
       '@osui/tree-select':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../tree-select
       '@osui/typography':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../typography
       '@osui/upload':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../upload
       '@osui/version':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../version
       classnames:
         specifier: ^2.3.1
@@ -11212,7 +11208,7 @@ importers:
         specifier: ^7.10.5
         version: 7.23.9(@babel/core@7.23.9)
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@reskript/cli':
         specifier: ^6.0.0
@@ -11228,7 +11224,7 @@ importers:
         version: 6.1.1(eslint-plugin-import@2.29.1)(eslint@8.56.0)(react@17.0.2)(styled-components@5.3.11)(stylelint@14.16.1)(typescript@4.9.5)(webpack@5.90.0)
       '@reskript/config-webpack':
         specifier: ^6.0.0
-        version: 6.1.1(eslint-plugin-import@2.29.1)(eslint@8.56.0)(styled-components@5.3.11)(stylelint@14.16.1)(typescript@4.9.5)(webpack@5.90.0)
+        version: 6.1.1(eslint-plugin-import@2.29.1)(eslint@8.56.0)(react@17.0.2)(styled-components@5.3.11)(stylelint@14.16.1)(typescript@4.9.5)(webpack@5.90.0)
       '@types/jest':
         specifier: ^27.0.0
         version: 27.5.2
@@ -11261,7 +11257,7 @@ importers:
         version: 4.9.5
       webpack:
         specifier: ^5.52.1
-        version: 5.90.0
+        version: 5.90.0(@swc/core@1.3.107)
 
   packages/ui/upload:
     dependencies:
@@ -11291,34 +11287,34 @@ importers:
         specifier: ^1.1.1
         version: 1.1.1(react@17.0.2)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/button':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../button
       '@osui/gap':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../gap
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/markdown':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../markdown
       '@osui/message':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../message
       '@osui/modal':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../modal
       '@osui/progress':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../progress
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -11447,16 +11443,16 @@ importers:
         specifier: ^7.23.2
         version: 7.23.3(@babel/core@7.23.9)
       '@osui/brand-provider':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../brand-provider
       '@osui/icloud-theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/icloud-theme
       '@osui/icons':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-icons/osui-icons
       '@osui/theme':
-        specifier: ^3.1.0-alpha.1
+        specifier: ^3.1.0-alpha.2
         version: link:../../ui-theme/osui-theme
       '@storybook/addon-docs':
         specifier: ^7.5.1
@@ -11725,7 +11721,7 @@ packages:
       typescript: 4.9.5
       uglifyjs-webpack-plugin: 2.2.0(webpack@4.47.0)
       unified: 8.4.2
-      url-loader: 4.1.1(webpack@4.47.0)
+      url-loader: 4.1.1(file-loader@6.2.0)(webpack@5.90.0)
       webpack: 4.47.0
       webpack-filter-warnings-plugin: 1.2.1(webpack@4.47.0)
       webpack-merge: 4.2.2
@@ -16076,7 +16072,7 @@ packages:
   /@radix-ui/react-arrow@1.0.3(@types/react-dom@17.0.25)(@types/react@17.0.53)(react-dom@17.0.2)(react@17.0.2):
     resolution: {integrity: sha512-wSP+pHsB/jQRaL6voubsQ/ZlrGBHHrOjmBnr19hxYgtS0WvAFwZhK2WP/YY5yF9uKECCEEDGxuLxq1NBK51wFA==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '*'
       '@types/react-dom': '*'
       react: ^16.8 || ^17.0 || ^18.0
       react-dom: ^16.8 || ^17.0 || ^18.0
@@ -16097,7 +16093,7 @@ packages:
   /@radix-ui/react-collection@1.0.3(@types/react-dom@17.0.25)(@types/react@17.0.53)(react-dom@17.0.2)(react@17.0.2):
     resolution: {integrity: sha512-3SzW+0PW7yBBoQlT8wNcGtaxaD0XSu0uLUFgrtHY08Acx05TaHaOmVLR73c0j/cqpDy53KBMO7s0dx2wmOIDIA==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '*'
       '@types/react-dom': '*'
       react: ^16.8 || ^17.0 || ^18.0
       react-dom: ^16.8 || ^17.0 || ^18.0
@@ -16121,7 +16117,7 @@ packages:
   /@radix-ui/react-compose-refs@1.0.1(@types/react@17.0.53)(react@17.0.2):
     resolution: {integrity: sha512-fDSBgd44FKHa1FRMU59qBMPFcl2PZE+2nmqunj+BWFyYYjnhIDWL2ItDs3rrbJDQOtzt5nIebLCQc4QRfz6LJw==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '*'
       react: ^16.8 || ^17.0 || ^18.0
     peerDependenciesMeta:
       '@types/react':
@@ -16135,7 +16131,7 @@ packages:
   /@radix-ui/react-context@1.0.1(@types/react@17.0.53)(react@17.0.2):
     resolution: {integrity: sha512-ebbrdFoYTcuZ0v4wG5tedGnp9tzcV8awzsxYph7gXUyvnNLuTIcCk1q17JEbnVhXAKG9oX3KtchwiMIAYp9NLg==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '*'
       react: ^16.8 || ^17.0 || ^18.0
     peerDependenciesMeta:
       '@types/react':
@@ -16149,7 +16145,7 @@ packages:
   /@radix-ui/react-direction@1.0.1(@types/react@17.0.53)(react@17.0.2):
     resolution: {integrity: sha512-RXcvnXgyvYvBEOhCBuddKecVkoMiI10Jcm5cTI7abJRAHYfFxeu+FBQs/DvdxSYucxR5mna0dNsL6QFlds5TMA==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '*'
       react: ^16.8 || ^17.0 || ^18.0
     peerDependenciesMeta:
       '@types/react':
@@ -16163,7 +16159,7 @@ packages:
   /@radix-ui/react-dismissable-layer@1.0.4(@types/react-dom@17.0.25)(@types/react@17.0.53)(react-dom@17.0.2)(react@17.0.2):
     resolution: {integrity: sha512-7UpBa/RKMoHJYjie1gkF1DlK8l1fdU/VKDpoS3rCCo8YBJR294GwcEHyxHw72yvphJ7ld0AXEcSLAzY2F/WyCg==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '*'
       '@types/react-dom': '*'
       react: ^16.8 || ^17.0 || ^18.0
       react-dom: ^16.8 || ^17.0 || ^18.0
@@ -16188,7 +16184,7 @@ packages:
   /@radix-ui/react-focus-guards@1.0.1(@types/react@17.0.53)(react@17.0.2):
     resolution: {integrity: sha512-Rect2dWbQ8waGzhMavsIbmSVCgYxkXLxxR3ZvCX79JOglzdEy4JXMb98lq4hPxUbLr77nP0UOGf4rcMU+s1pUA==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '*'
       react: ^16.8 || ^17.0 || ^18.0
     peerDependenciesMeta:
       '@types/react':
@@ -16202,7 +16198,7 @@ packages:
   /@radix-ui/react-focus-scope@1.0.3(@types/react-dom@17.0.25)(@types/react@17.0.53)(react-dom@17.0.2)(react@17.0.2):
     resolution: {integrity: sha512-upXdPfqI4islj2CslyfUBNlaJCPybbqRHAi1KER7Isel9Q2AtSJ0zRBZv8mWQiFXD2nyAJ4BhC3yXgZ6kMBSrQ==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '*'
       '@types/react-dom': '*'
       react: ^16.8 || ^17.0 || ^18.0
       react-dom: ^16.8 || ^17.0 || ^18.0
@@ -16225,7 +16221,7 @@ packages:
   /@radix-ui/react-id@1.0.1(@types/react@17.0.53)(react@17.0.2):
     resolution: {integrity: sha512-tI7sT/kqYp8p96yGWY1OAnLHrqDgzHefRBKQ2YAkBS5ja7QLcZ9Z/uY7bEjPUatf8RomoXM8/1sMj1IJaE5UzQ==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '*'
       react: ^16.8 || ^17.0 || ^18.0
     peerDependenciesMeta:
       '@types/react':
@@ -16240,7 +16236,7 @@ packages:
   /@radix-ui/react-popper@1.1.2(@types/react-dom@17.0.25)(@types/react@17.0.53)(react-dom@17.0.2)(react@17.0.2):
     resolution: {integrity: sha512-1CnGGfFi/bbqtJZZ0P/NQY20xdG3E0LALJaLUEoKwPLwl6PPPfbeiCqMVQnhoFRAxjJj4RpBRJzDmUgsex2tSg==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '*'
       '@types/react-dom': '*'
       react: ^16.8 || ^17.0 || ^18.0
       react-dom: ^16.8 || ^17.0 || ^18.0
@@ -16270,7 +16266,7 @@ packages:
   /@radix-ui/react-portal@1.0.3(@types/react-dom@17.0.25)(@types/react@17.0.53)(react-dom@17.0.2)(react@17.0.2):
     resolution: {integrity: sha512-xLYZeHrWoPmA5mEKEfZZevoVRK/Q43GfzRXkWV6qawIWWK8t6ifIiLQdd7rmQ4Vk1bmI21XhqF9BN3jWf+phpA==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '*'
       '@types/react-dom': '*'
       react: ^16.8 || ^17.0 || ^18.0
       react-dom: ^16.8 || ^17.0 || ^18.0
@@ -16291,7 +16287,7 @@ packages:
   /@radix-ui/react-primitive@1.0.3(@types/react-dom@17.0.25)(@types/react@17.0.53)(react-dom@17.0.2)(react@17.0.2):
     resolution: {integrity: sha512-yi58uVyoAcK/Nq1inRY56ZSjKypBNKTa/1mcL8qdl6oJeEaDbOldlzrGn7P6Q3Id5d+SYNGc5AJgc4vGhjs5+g==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '*'
       '@types/react-dom': '*'
       react: ^16.8 || ^17.0 || ^18.0
       react-dom: ^16.8 || ^17.0 || ^18.0
@@ -16312,7 +16308,7 @@ packages:
   /@radix-ui/react-roving-focus@1.0.4(@types/react-dom@17.0.25)(@types/react@17.0.53)(react-dom@17.0.2)(react@17.0.2):
     resolution: {integrity: sha512-2mUg5Mgcu001VkGy+FfzZyzbmuUWzgWkj3rvv4yu+mLw03+mTzbxZHvfcGyFp2b8EkQeMkpRQ5FiA2Vr2O6TeQ==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '*'
       '@types/react-dom': '*'
       react: ^16.8 || ^17.0 || ^18.0
       react-dom: ^16.8 || ^17.0 || ^18.0
@@ -16341,7 +16337,7 @@ packages:
   /@radix-ui/react-select@1.2.2(@types/react-dom@17.0.25)(@types/react@17.0.53)(react-dom@17.0.2)(react@17.0.2):
     resolution: {integrity: sha512-zI7McXr8fNaSrUY9mZe4x/HC0jTLY9fWNhO1oLWYMQGDXuV4UCivIGTxwioSzO0ZCYX9iSLyWmAh/1TOmX3Cnw==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '*'
       '@types/react-dom': '*'
       react: ^16.8 || ^17.0 || ^18.0
       react-dom: ^16.8 || ^17.0 || ^18.0
@@ -16382,7 +16378,7 @@ packages:
   /@radix-ui/react-separator@1.0.3(@types/react-dom@17.0.25)(@types/react@17.0.53)(react-dom@17.0.2)(react@17.0.2):
     resolution: {integrity: sha512-itYmTy/kokS21aiV5+Z56MZB54KrhPgn6eHDKkFeOLR34HMN2s8PaN47qZZAGnvupcjxHaFZnW4pQEh0BvvVuw==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '*'
       '@types/react-dom': '*'
       react: ^16.8 || ^17.0 || ^18.0
       react-dom: ^16.8 || ^17.0 || ^18.0
@@ -16403,7 +16399,7 @@ packages:
   /@radix-ui/react-slot@1.0.2(@types/react@17.0.53)(react@17.0.2):
     resolution: {integrity: sha512-YeTpuq4deV+6DusvVUW4ivBgnkHwECUu0BiN43L5UCDFgdhsRUWAghhTF5MbvNTPzmiFOx90asDSUjWuCNapwg==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '*'
       react: ^16.8 || ^17.0 || ^18.0
     peerDependenciesMeta:
       '@types/react':
@@ -16418,7 +16414,7 @@ packages:
   /@radix-ui/react-toggle-group@1.0.4(@types/react-dom@17.0.25)(@types/react@17.0.53)(react-dom@17.0.2)(react@17.0.2):
     resolution: {integrity: sha512-Uaj/M/cMyiyT9Bx6fOZO0SAG4Cls0GptBWiBmBxofmDbNVnYYoyRWj/2M/6VCi/7qcXFWnHhRUfdfZFvvkuu8A==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '*'
       '@types/react-dom': '*'
       react: ^16.8 || ^17.0 || ^18.0
       react-dom: ^16.8 || ^17.0 || ^18.0
@@ -16445,7 +16441,7 @@ packages:
   /@radix-ui/react-toggle@1.0.3(@types/react-dom@17.0.25)(@types/react@17.0.53)(react-dom@17.0.2)(react@17.0.2):
     resolution: {integrity: sha512-Pkqg3+Bc98ftZGsl60CLANXQBBQ4W3mTFS9EJvNxKMZ7magklKV69/id1mlAlOFDDfHvlCms0fx8fA4CMKDJHg==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '*'
       '@types/react-dom': '*'
       react: ^16.8 || ^17.0 || ^18.0
       react-dom: ^16.8 || ^17.0 || ^18.0
@@ -16468,7 +16464,7 @@ packages:
   /@radix-ui/react-toolbar@1.0.4(@types/react-dom@17.0.25)(@types/react@17.0.53)(react-dom@17.0.2)(react@17.0.2):
     resolution: {integrity: sha512-tBgmM/O7a07xbaEkYJWYTXkIdU/1pW4/KZORR43toC/4XWyBCURK0ei9kMUdp+gTPPKBgYLxXmRSH1EVcIDp8Q==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '*'
       '@types/react-dom': '*'
       react: ^16.8 || ^17.0 || ^18.0
       react-dom: ^16.8 || ^17.0 || ^18.0
@@ -16495,7 +16491,7 @@ packages:
   /@radix-ui/react-use-callback-ref@1.0.1(@types/react@17.0.53)(react@17.0.2):
     resolution: {integrity: sha512-D94LjX4Sp0xJFVaoQOd3OO9k7tpBYNOXdVhkltUbGv2Qb9OXdrg/CpsjlZv7ia14Sylv398LswWBVVu5nqKzAQ==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '*'
       react: ^16.8 || ^17.0 || ^18.0
     peerDependenciesMeta:
       '@types/react':
@@ -16509,7 +16505,7 @@ packages:
   /@radix-ui/react-use-controllable-state@1.0.1(@types/react@17.0.53)(react@17.0.2):
     resolution: {integrity: sha512-Svl5GY5FQeN758fWKrjM6Qb7asvXeiZltlT4U2gVfl8Gx5UAv2sMR0LWo8yhsIZh2oQ0eFdZ59aoOOMV7b47VA==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '*'
       react: ^16.8 || ^17.0 || ^18.0
     peerDependenciesMeta:
       '@types/react':
@@ -16524,7 +16520,7 @@ packages:
   /@radix-ui/react-use-escape-keydown@1.0.3(@types/react@17.0.53)(react@17.0.2):
     resolution: {integrity: sha512-vyL82j40hcFicA+M4Ex7hVkB9vHgSse1ZWomAqV2Je3RleKGO5iM8KMOEtfoSB0PnIelMd2lATjTGMYqN5ylTg==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '*'
       react: ^16.8 || ^17.0 || ^18.0
     peerDependenciesMeta:
       '@types/react':
@@ -16539,7 +16535,7 @@ packages:
   /@radix-ui/react-use-layout-effect@1.0.1(@types/react@17.0.53)(react@17.0.2):
     resolution: {integrity: sha512-v/5RegiJWYdoCvMnITBkNNx6bCj20fiaJnWtRkU18yITptraXjffz5Qbn05uOiQnOvi+dbkznkoaMltz1GnszQ==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '*'
       react: ^16.8 || ^17.0 || ^18.0
     peerDependenciesMeta:
       '@types/react':
@@ -16553,7 +16549,7 @@ packages:
   /@radix-ui/react-use-previous@1.0.1(@types/react@17.0.53)(react@17.0.2):
     resolution: {integrity: sha512-cV5La9DPwiQ7S0gf/0qiD6YgNqM5Fk97Kdrlc5yBcrF3jyEZQwm7vYFqMo4IfeHgJXsRaMvLABFtd0OVEmZhDw==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '*'
       react: ^16.8 || ^17.0 || ^18.0
     peerDependenciesMeta:
       '@types/react':
@@ -16567,7 +16563,7 @@ packages:
   /@radix-ui/react-use-rect@1.0.1(@types/react@17.0.53)(react@17.0.2):
     resolution: {integrity: sha512-Cq5DLuSiuYVKNU8orzJMbl15TXilTnJKUCltMVQg53BQOF1/C5toAaGrowkgksdBQ9H+SRL23g0HDmg9tvmxXw==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '*'
       react: ^16.8 || ^17.0 || ^18.0
     peerDependenciesMeta:
       '@types/react':
@@ -16582,7 +16578,7 @@ packages:
   /@radix-ui/react-use-size@1.0.1(@types/react@17.0.53)(react@17.0.2):
     resolution: {integrity: sha512-ibay+VqrgcaI6veAojjofPATwledXiSmX+C0KrBk/xgpX9rBzPV3OsfwlhQdUOFbh+LKQorLYT+xTXW9V8yd0g==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '*'
       react: ^16.8 || ^17.0 || ^18.0
     peerDependenciesMeta:
       '@types/react':
@@ -16597,7 +16593,7 @@ packages:
   /@radix-ui/react-visually-hidden@1.0.3(@types/react-dom@17.0.25)(@types/react@17.0.53)(react-dom@17.0.2)(react@17.0.2):
     resolution: {integrity: sha512-D4w41yN5YRKtu464TLnByKzMDG/JlMPHtfZgQAu9v6mNakUqGUI9vUrfQKz8NK41VMm/xbZbh76NUTVtIYqOMA==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '*'
       '@types/react-dom': '*'
       react: ^16.8 || ^17.0 || ^18.0
       react-dom: ^16.8 || ^17.0 || ^18.0
@@ -16807,41 +16803,6 @@ packages:
       - webpack-cli
     dev: true
 
-  /@reskript/cli-lint@6.1.1(eslint-plugin-import@2.29.1)(eslint@8.56.0)(styled-components@5.3.11)(stylelint@14.16.1)(typescript@4.9.5):
-    resolution: {integrity: sha512-1fo9O7lmuFGV91J1hdAr7xEwdAkS1kcpJ27FbYhb2xdvxxdfbxHJahq/ipbbzqjzGV2CxFz4VWrDYNMcoillbA==}
-    engines: {node: '>=14.18.0 || >= 16.10.0'}
-    peerDependencies:
-      eslint: 8.x
-      stylelint: 15.x
-      typescript: 4.x || 5.x
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-    dependencies:
-      '@reskript/config-lint': 6.1.1(eslint-plugin-import@2.29.1)(eslint@8.56.0)(styled-components@5.3.11)(stylelint@14.16.1)(typescript@4.9.5)
-      '@reskript/core': 6.1.1
-      eslint: 8.56.0
-      eslint-formatter-pretty: 5.0.0
-      execa: 8.0.1
-      globby: 13.2.2
-      ramda: 0.29.1
-      stylelint: 14.16.1
-      typescript: 4.9.5
-    transitivePeerDependencies:
-      - babel-plugin-macros
-      - bufferutil
-      - debug
-      - eslint-plugin-import
-      - eslint-plugin-san
-      - eslint-plugin-vue
-      - react
-      - styled-components
-      - supports-color
-      - utf-8-validate
-      - webpack
-      - webpack-cli
-    dev: true
-
   /@reskript/cli@6.1.1:
     resolution: {integrity: sha512-UcLToulrz7Z8xBYQjA/RETLIvF90luxNbmItpr1tQnptcWSi/NXe8XPUa33H/xf+3hT2hi8AHLyDMtfzfcOs8g==}
     engines: {node: '>=14.18.0 || >= 16.10.0'}
@@ -16859,55 +16820,6 @@ packages:
     dev: true
 
   /@reskript/config-babel@6.1.1(react@17.0.2)(styled-components@5.3.11)(webpack@5.90.0):
-    resolution: {integrity: sha512-CPsdW/rKjw2OjgZRw0lUthHSiAZbSn+xcE/KNR56R2iR+EaqHpgeCPvgCXkTpJLb8SnkjGxaTrNDlQrnKKXtgQ==}
-    engines: {node: '>=14.18.0 || >= 16.10.0'}
-    peerDependencies:
-      styled-components: '*'
-    peerDependenciesMeta:
-      styled-components:
-        optional: true
-    dependencies:
-      '@babel/core': 7.23.9
-      '@babel/plugin-proposal-class-properties': 7.18.6(@babel/core@7.23.9)
-      '@babel/plugin-proposal-decorators': 7.23.9(@babel/core@7.23.9)
-      '@babel/plugin-proposal-do-expressions': 7.23.3(@babel/core@7.23.9)
-      '@babel/plugin-proposal-export-default-from': 7.23.3(@babel/core@7.23.9)
-      '@babel/plugin-proposal-export-namespace-from': 7.18.9(@babel/core@7.23.9)
-      '@babel/plugin-proposal-nullish-coalescing-operator': 7.18.6(@babel/core@7.23.9)
-      '@babel/plugin-proposal-numeric-separator': 7.18.6(@babel/core@7.23.9)
-      '@babel/plugin-proposal-optional-chaining': 7.21.0(@babel/core@7.23.9)
-      '@babel/plugin-proposal-throw-expressions': 7.23.3(@babel/core@7.23.9)
-      '@babel/plugin-syntax-dynamic-import': 7.8.3(@babel/core@7.23.9)
-      '@babel/plugin-syntax-import-meta': 7.10.4(@babel/core@7.23.9)
-      '@babel/plugin-transform-react-constant-elements': 7.23.3(@babel/core@7.23.9)
-      '@babel/plugin-transform-react-inline-elements': 7.23.3(@babel/core@7.23.9)
-      '@babel/preset-env': 7.23.9(@babel/core@7.23.9)
-      '@babel/preset-react': 7.23.3(@babel/core@7.23.9)
-      '@babel/preset-typescript': 7.23.3(@babel/core@7.23.9)
-      '@babel/traverse': 7.23.9(supports-color@5.5.0)
-      '@emotion/babel-plugin': 11.11.0
-      '@reskript/babel-plugin-add-react-display-name': 6.1.1
-      '@reskript/babel-plugin-debug-react-component-file-name': 6.1.1(react@17.0.2)
-      '@reskript/settings': 6.1.1(webpack@5.90.0)
-      babel-plugin-import: 1.13.8
-      babel-plugin-lodash: 3.3.4
-      babel-plugin-styled-components: 2.1.4(@babel/core@7.23.9)(styled-components@5.3.11)
-      babel-plugin-transform-react-remove-prop-types: 0.4.24
-      babel-plugin-transform-typescript-metadata: 0.3.2(@babel/core@7.23.9)(@babel/traverse@7.23.9)
-      react-refresh: 0.14.0
-      styled-components: 5.3.11(@babel/core@7.23.9)(react-dom@17.0.2)(react-is@17.0.2)(react@17.0.2)
-    transitivePeerDependencies:
-      - babel-plugin-macros
-      - bufferutil
-      - debug
-      - react
-      - supports-color
-      - utf-8-validate
-      - webpack
-      - webpack-cli
-    dev: true
-
-  /@reskript/config-babel@6.1.1(styled-components@5.3.11):
     resolution: {integrity: sha512-CPsdW/rKjw2OjgZRw0lUthHSiAZbSn+xcE/KNR56R2iR+EaqHpgeCPvgCXkTpJLb8SnkjGxaTrNDlQrnKKXtgQ==}
     engines: {node: '>=14.18.0 || >= 16.10.0'}
     peerDependencies:
@@ -17004,54 +16916,6 @@ packages:
       - webpack-cli
     dev: true
 
-  /@reskript/config-lint@6.1.1(eslint-plugin-import@2.29.1)(eslint@8.56.0)(styled-components@5.3.11)(stylelint@14.16.1)(typescript@4.9.5):
-    resolution: {integrity: sha512-bchh2c1NEIzPRerPN9lDPTzZq4uVkeAAvTESH/iJ4eDn5DJ+FniBgDkNblCvb/Lbt7ZnlKcmRiJbPKhEGeIwiQ==}
-    engines: {node: '>=14.18.0 || >= 16.10.0'}
-    peerDependencies:
-      eslint: 8.x
-      stylelint: 15.x
-      typescript: 4.x || 5.x
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-    dependencies:
-      '@babel/core': 7.23.9
-      '@babel/eslint-parser': 7.23.9(@babel/core@7.23.9)(eslint@8.56.0)
-      '@babel/eslint-plugin': 7.23.5(@babel/eslint-parser@7.23.9)(eslint@8.56.0)
-      '@ecomfe/eslint-config': 8.0.0(@babel/core@7.23.9)(@babel/eslint-parser@7.23.9)(@babel/eslint-plugin@7.23.5)(@typescript-eslint/eslint-plugin@6.20.0)(@typescript-eslint/parser@6.20.0)(eslint-plugin-import@2.29.1)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.33.2)(eslint@8.56.0)
-      '@ecomfe/stylelint-config': 1.1.2(stylelint@14.16.1)
-      '@reskript/config-babel': 6.1.1(styled-components@5.3.11)
-      '@reskript/core': 6.1.1
-      '@reskript/eslint-plugin': 6.1.1(@babel/core@7.23.9)
-      '@rushstack/eslint-patch': 1.7.2
-      '@typescript-eslint/eslint-plugin': 6.20.0(@typescript-eslint/parser@6.20.0)(eslint@8.56.0)(typescript@4.9.5)
-      '@typescript-eslint/parser': 6.20.0(eslint@8.56.0)(typescript@4.9.5)
-      eslint: 8.56.0
-      eslint-plugin-babel: 5.3.1(eslint@8.56.0)
-      eslint-plugin-react: 7.33.2(eslint@8.56.0)
-      eslint-plugin-react-hooks: 4.6.0(eslint@8.56.0)
-      eslint-plugin-reskript: 0.1.2
-      postcss: 8.4.33
-      postcss-less: 6.0.0(postcss@8.4.33)
-      resolve: 1.22.8
-      stylelint: 14.16.1
-      stylelint-stylistic: 0.4.5(stylelint@14.16.1)
-      typescript: 4.9.5
-    transitivePeerDependencies:
-      - babel-plugin-macros
-      - bufferutil
-      - debug
-      - eslint-plugin-import
-      - eslint-plugin-san
-      - eslint-plugin-vue
-      - react
-      - styled-components
-      - supports-color
-      - utf-8-validate
-      - webpack
-      - webpack-cli
-    dev: true
-
   /@reskript/config-webpack@6.1.1(eslint-plugin-import@2.29.1)(eslint@8.56.0)(react@17.0.2)(styled-components@5.3.11)(stylelint@14.16.1)(typescript@4.9.5)(webpack@5.90.0):
     resolution: {integrity: sha512-qJdavZpNVEpbgsFpmsJvp/JaV3g4DB0blr5hV6raD2nZeVk2YOCCETLD45e2JGGyxfLPwuWITIYWaJwhvvticQ==}
     engines: {node: '>=14.18.0 || >= 16.10.0'}
@@ -17102,75 +16966,6 @@ packages:
       unixify: 1.0.0
       url-loader: 4.1.1(file-loader@6.2.0)(webpack@5.90.0)
       webpack: 5.90.0(@swc/core@1.3.107)
-      webpack-merge: 5.10.0
-      workbox-webpack-plugin: 7.0.0(webpack@5.90.0)
-      worker-loader: 3.0.8(webpack@5.90.0)
-    transitivePeerDependencies:
-      - '@rspack/core'
-      - '@types/babel__core'
-      - babel-plugin-macros
-      - bufferutil
-      - debug
-      - eslint-plugin-import
-      - eslint-plugin-san
-      - eslint-plugin-vue
-      - react
-      - styled-components
-      - supports-color
-      - utf-8-validate
-      - webpack-cli
-    dev: true
-
-  /@reskript/config-webpack@6.1.1(eslint-plugin-import@2.29.1)(eslint@8.56.0)(styled-components@5.3.11)(stylelint@14.16.1)(typescript@4.9.5)(webpack@5.90.0):
-    resolution: {integrity: sha512-qJdavZpNVEpbgsFpmsJvp/JaV3g4DB0blr5hV6raD2nZeVk2YOCCETLD45e2JGGyxfLPwuWITIYWaJwhvvticQ==}
-    engines: {node: '>=14.18.0 || >= 16.10.0'}
-    peerDependencies:
-      eslint: 8.x
-      stylelint: 15.x
-      typescript: 4.x || 5.x
-      webpack: ^5.74.0
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-    dependencies:
-      '@babel/core': 7.23.9
-      '@ecomfe/class-names-loader': 2.0.0(webpack@5.90.0)
-      '@reskript/build-utils': 6.1.1(postcss@8.4.33)(webpack@5.90.0)
-      '@reskript/config-babel': 6.1.1(react@17.0.2)(styled-components@5.3.11)(webpack@5.90.0)
-      '@reskript/config-lint': 6.1.1(eslint-plugin-import@2.29.1)(eslint@8.56.0)(react@17.0.2)(styled-components@5.3.11)(stylelint@14.16.1)(typescript@4.9.5)(webpack@5.90.0)
-      '@reskript/core': 6.1.1
-      '@reskript/settings': 6.1.1(webpack@5.90.0)
-      '@reskript/svg-to-component-loader': 6.1.1(postcss@8.4.33)(webpack@5.90.0)
-      '@reskript/webpack-plugin-interpolate-html': 6.1.1(postcss@8.4.33)(webpack@5.90.0)
-      babel-loader: 9.1.3(@babel/core@7.23.9)(webpack@5.90.0)
-      case-sensitive-paths-webpack-plugin: 2.4.0
-      change-case: 5.4.2
-      classnames: 2.5.1
-      css-loader: 6.10.0(webpack@5.90.0)
-      eslint: 8.56.0
-      eslint-webpack-plugin: 4.0.1(eslint@8.56.0)(webpack@5.90.0)
-      file-loader: 6.2.0(webpack@5.90.0)
-      find-up: 6.3.0
-      fork-ts-checker-webpack-plugin: 9.0.2(typescript@4.9.5)(webpack@5.90.0)
-      hasha: 5.2.2
-      html-webpack-plugin: 5.6.0(webpack@5.90.0)
-      less: 4.2.0
-      less-loader: 11.1.4(less@4.2.0)(webpack@5.90.0)
-      loader-of-loader: 1.0.3
-      mini-css-extract-plugin: 2.7.7(webpack@5.90.0)
-      postcss: 8.4.33
-      postcss-loader: 7.3.4(postcss@8.4.33)(typescript@4.9.5)(webpack@5.90.0)
-      ramda: 0.29.1
-      regenerator-runtime: 0.14.1
-      style-loader: 3.3.4(webpack@5.90.0)
-      stylelint: 14.16.1
-      stylelint-webpack-plugin: 4.1.1(stylelint@14.16.1)(webpack@5.90.0)
-      svgo: 3.2.0
-      svgo-loader: 4.0.0
-      typescript: 4.9.5
-      unixify: 1.0.0
-      url-loader: 4.1.1(file-loader@6.2.0)(webpack@5.90.0)
-      webpack: 5.90.0
       webpack-merge: 5.10.0
       workbox-webpack-plugin: 7.0.0(webpack@5.90.0)
       worker-loader: 3.0.8(webpack@5.90.0)
@@ -18358,56 +18153,6 @@ packages:
       - webpack-plugin-serve
     dev: true
 
-  /@storybook/preset-react-webpack@7.6.11(@babel/core@7.23.9)(react-dom@17.0.2)(react@17.0.2)(typescript@4.9.5):
-    resolution: {integrity: sha512-2KEsBdPpvxhby/2lV3mT0jfYi2KTLfpL1brQFYOY+1w2wPfMMAaUvEFBKj1UlG85RzqiNoQEjMSGqdVcw7MYUw==}
-    engines: {node: '>=16.0.0'}
-    peerDependencies:
-      '@babel/core': ^7.22.0
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
-      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-      typescript: '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-      typescript:
-        optional: true
-    dependencies:
-      '@babel/core': 7.23.9
-      '@babel/preset-flow': 7.23.3(@babel/core@7.23.9)
-      '@babel/preset-react': 7.23.3(@babel/core@7.23.9)
-      '@pmmmwh/react-refresh-webpack-plugin': 0.5.11(react-refresh@0.14.0)(webpack@5.90.0)
-      '@storybook/core-webpack': 7.6.11
-      '@storybook/docs-tools': 7.6.11
-      '@storybook/node-logger': 7.6.11
-      '@storybook/react': 7.6.11(react-dom@17.0.2)(react@17.0.2)(typescript@4.9.5)
-      '@storybook/react-docgen-typescript-plugin': 1.0.6--canary.9.0c3f3b7.0(typescript@4.9.5)(webpack@5.90.0)
-      '@types/node': 18.19.11
-      '@types/semver': 7.5.6
-      babel-plugin-add-react-displayname: 0.0.5
-      fs-extra: 11.2.0
-      magic-string: 0.30.5
-      react: 17.0.2
-      react-docgen: 7.0.3
-      react-dom: 17.0.2(react@17.0.2)
-      react-refresh: 0.14.0
-      semver: 7.5.4
-      typescript: 4.9.5
-      webpack: 5.90.0
-    transitivePeerDependencies:
-      - '@swc/core'
-      - '@types/webpack'
-      - encoding
-      - esbuild
-      - sockjs-client
-      - supports-color
-      - type-fest
-      - uglify-js
-      - webpack-cli
-      - webpack-dev-server
-      - webpack-hot-middleware
-      - webpack-plugin-serve
-    dev: true
-
   /@storybook/preview-api@7.5.1:
     resolution: {integrity: sha512-8xjUbuGmHLmw8tfTUCjXSvMM9r96JaexPFmHdwW6XLe71KKdWp8u96vRDRE5648cd+/of15OjaRtakRKqluA/A==}
     dependencies:
@@ -18533,45 +18278,6 @@ packages:
       '@babel/core': 7.23.9
       '@storybook/builder-webpack5': 7.6.11(typescript@4.9.5)
       '@storybook/preset-react-webpack': 7.6.11(@babel/core@7.23.9)(@swc/core@1.3.107)(react-dom@17.0.2)(react@17.0.2)(typescript@4.9.5)
-      '@storybook/react': 7.6.11(react-dom@17.0.2)(react@17.0.2)(typescript@4.9.5)
-      '@types/node': 18.19.11
-      react: 17.0.2
-      react-dom: 17.0.2(react@17.0.2)
-      typescript: 4.9.5
-    transitivePeerDependencies:
-      - '@rspack/core'
-      - '@swc/core'
-      - '@swc/helpers'
-      - '@types/webpack'
-      - encoding
-      - esbuild
-      - sockjs-client
-      - supports-color
-      - type-fest
-      - uglify-js
-      - webpack-cli
-      - webpack-dev-server
-      - webpack-hot-middleware
-      - webpack-plugin-serve
-    dev: true
-
-  /@storybook/react-webpack5@7.6.11(@babel/core@7.23.9)(react-dom@17.0.2)(react@17.0.2)(typescript@4.9.5):
-    resolution: {integrity: sha512-/Oo/dFgsKSlx6Ky8fAWD15FX7RcSqwHqZFfScpoCEM/c1j4ym9LtRhJWkS+8aG/zX5Q6e3r9TjjeJ1P/S9MbaQ==}
-    engines: {node: '>=16.0.0'}
-    peerDependencies:
-      '@babel/core': ^7.22.0
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
-      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-      typescript: '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-      typescript:
-        optional: true
-    dependencies:
-      '@babel/core': 7.23.9
-      '@storybook/builder-webpack5': 7.6.11(typescript@4.9.5)
-      '@storybook/preset-react-webpack': 7.6.11(@babel/core@7.23.9)(react-dom@17.0.2)(react@17.0.2)(typescript@4.9.5)
       '@storybook/react': 7.6.11(react-dom@17.0.2)(react@17.0.2)(typescript@4.9.5)
       '@types/node': 18.19.11
       react: 17.0.2
@@ -33960,7 +33666,7 @@ packages:
   /react-innertext@1.1.5(@types/react@17.0.53)(react@17.0.2):
     resolution: {integrity: sha512-PWAqdqhxhHIv80dT9znP2KvS+hfkbRovFp4zFYHFFlOoQLRiawIic81gKb3U1wEyJZgMwgs3JoLtwryASRWP3Q==}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': '>=0.0.0 <=99'
       react: '>=0.0.0 <=99'
     dependencies:
       '@types/react': 17.0.53
@@ -34032,7 +33738,7 @@ packages:
     resolution: {integrity: sha512-63C4YQBUt0m6ALadE9XV56hV8BgJWDmmTPY758iIJjfQKt2nYwoUrPk0LXRXcB/yIj82T1/Ixfdpdk68LwIB0A==}
     engines: {node: '>=10'}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
     peerDependenciesMeta:
       '@types/react':
@@ -34048,7 +33754,7 @@ packages:
     resolution: {integrity: sha512-ImKhrzJJsyXJfBZ4bzu8Bwpka14c/fQt0k+cyFp/PBhTfyDnU5hjOtM4AG/0AMyy8oKzOTR0lDgJIM7pYXI0kw==}
     engines: {node: '>=10'}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
     peerDependenciesMeta:
       '@types/react':
@@ -34109,7 +33815,7 @@ packages:
     resolution: {integrity: sha512-ZWj0fHEMyWkHzKYUr2Bs/4zU6XLmq9HsgBURm7g5pAVfyn49DgUiNgY2d4lXRlYSiCif9YBGpQleewkcqddc7g==}
     engines: {node: '>=10'}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
     peerDependenciesMeta:
       '@types/react':
@@ -36708,30 +36414,6 @@ packages:
       webpack: 5.90.0(@swc/core@1.3.107)
     dev: true
 
-  /terser-webpack-plugin@5.3.10(webpack@5.90.0):
-    resolution: {integrity: sha512-BKFPWlPDndPs+NGGCr1U59t0XScL5317Y0UReNrHaw9/FwhPENlq6bfgs+4yPfyP51vqC1bQ4rp1EfXW5ZSH9w==}
-    engines: {node: '>= 10.13.0'}
-    peerDependencies:
-      '@swc/core': '*'
-      esbuild: '*'
-      uglify-js: '*'
-      webpack: ^5.1.0
-    peerDependenciesMeta:
-      '@swc/core':
-        optional: true
-      esbuild:
-        optional: true
-      uglify-js:
-        optional: true
-    dependencies:
-      '@jridgewell/trace-mapping': 0.3.22
-      jest-worker: 27.5.1
-      schema-utils: 3.3.0
-      serialize-javascript: 6.0.2
-      terser: 5.27.0
-      webpack: 5.90.0
-    dev: true
-
   /terser@4.8.1:
     resolution: {integrity: sha512-4GnLC0x667eJG0ewJTa6z/yXrbLGv80D9Ru6HIpCQmO+Q4PfEtBFi0ObSckqwL6VyQv/7ENJieXHo2ANmdQwgw==}
     engines: {node: '>=6.0.0'}
@@ -37780,22 +37462,6 @@ packages:
       webpack: 5.90.0(@swc/core@1.3.107)
     dev: true
 
-  /url-loader@4.1.1(webpack@4.47.0):
-    resolution: {integrity: sha512-3BTV812+AVHHOJQO8O5MkWgZ5aosP7GnROJwvzLS9hWDj00lZ6Z0wNak423Lp9PBZN05N+Jk/N5Si8jRAlGyWA==}
-    engines: {node: '>= 10.13.0'}
-    peerDependencies:
-      file-loader: '*'
-      webpack: ^4.0.0 || ^5.0.0
-    peerDependenciesMeta:
-      file-loader:
-        optional: true
-    dependencies:
-      loader-utils: 2.0.4
-      mime-types: 2.1.35
-      schema-utils: 3.3.0
-      webpack: 4.47.0
-    dev: true
-
   /url-parse@1.5.10:
     resolution: {integrity: sha512-WypcfiRhfeUP9vvF0j6rw0J3hrWrw6iZv3+22h6iRMJ/8z1Tj6XfLP4DsUix5MhMPnXpiHDoKyoZ/bdCkwBCiQ==}
     dependencies:
@@ -37814,7 +37480,7 @@ packages:
     resolution: {integrity: sha512-Lg4Vx1XZQauB42Hw3kK7JM6yjVjgFmFC5/Ab797s79aARomD2nEErc4mCgM8EZrARLmmbWpi5DGCadmK50DcAQ==}
     engines: {node: '>=10'}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
     peerDependenciesMeta:
       '@types/react':
@@ -37849,7 +37515,7 @@ packages:
     resolution: {integrity: sha512-epTbsLuzZ7lPClpz2TyryBfztm7m+28DlEv2ZCQ3MDr5ssiwyOwGH/e5F9CkfWjJ1t4clvI58yF822/GUkjjhw==}
     engines: {node: '>=10'}
     peerDependencies:
-      '@types/react': 17.0.53
+      '@types/react': ^16.9.0 || ^17.0.0 || ^18.0.0
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
     peerDependenciesMeta:
       '@types/react':
@@ -38434,46 +38100,6 @@ packages:
       webpack-sources: 1.4.3
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /webpack@5.90.0:
-    resolution: {integrity: sha512-bdmyXRCXeeNIePv6R6tGPyy20aUobw4Zy8r0LUS2EWO+U+Ke/gYDgsCh7bl5rB6jPpr4r0SZa6dPxBxLooDT3w==}
-    engines: {node: '>=10.13.0'}
-    hasBin: true
-    peerDependencies:
-      webpack-cli: '*'
-    peerDependenciesMeta:
-      webpack-cli:
-        optional: true
-    dependencies:
-      '@types/eslint-scope': 3.7.7
-      '@types/estree': 1.0.5
-      '@webassemblyjs/ast': 1.11.6
-      '@webassemblyjs/wasm-edit': 1.11.6
-      '@webassemblyjs/wasm-parser': 1.11.6
-      acorn: 8.11.3
-      acorn-import-assertions: 1.9.0(acorn@8.11.3)
-      browserslist: 4.22.3
-      chrome-trace-event: 1.0.3
-      enhanced-resolve: 5.15.0
-      es-module-lexer: 1.4.1
-      eslint-scope: 5.1.1
-      events: 3.3.0
-      glob-to-regexp: 0.4.1
-      graceful-fs: 4.2.11
-      json-parse-even-better-errors: 2.3.1
-      loader-runner: 4.3.0
-      mime-types: 2.1.35
-      neo-async: 2.6.2
-      schema-utils: 3.3.0
-      tapable: 2.2.1
-      terser-webpack-plugin: 5.3.10(webpack@5.90.0)
-      watchpack: 2.4.0
-      webpack-sources: 3.2.3
-    transitivePeerDependencies:
-      - '@swc/core'
-      - esbuild
-      - uglify-js
     dev: true
 
   /webpack@5.90.0(@swc/core@1.3.107):
@@ -39230,7 +38856,7 @@ packages:
     dev: true
 
   registry.npmjs.org/@osui/brand-provider@3.0.4(antd@5.13.3)(react-dom@17.0.2)(react@17.0.2):
-    resolution: {integrity: sha512-C/+ErDlReJn8Yw7DCnqVKQIc8YNmC3J2K1EPSavDYuSQg+276G84I7szXRRtIvCn9g/Yh7WErv4gmy73TRz55g==, tarball: https://registry.npmjs.org/@osui/brand-provider/-/brand-provider-3.0.4.tgz}
+    resolution: {integrity: sha512-C/+ErDlReJn8Yw7DCnqVKQIc8YNmC3J2K1EPSavDYuSQg+276G84I7szXRRtIvCn9g/Yh7WErv4gmy73TRz55g==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@osui/brand-provider/-/brand-provider-3.0.4.tgz}
     id: registry.npmjs.org/@osui/brand-provider/3.0.4
     name: '@osui/brand-provider'
     version: 3.0.4
@@ -39246,7 +38872,7 @@ packages:
     dev: true
 
   registry.npmjs.org/@osui/empty@3.0.4(antd@5.13.3)(react-dom@17.0.2)(react@17.0.2):
-    resolution: {integrity: sha512-HnjwUyyH6/qhRUSapbTw31oQmBXiC0UcfKB6xtijC6WJri4ewdsn27A0gjrVGqDbqgMqkX5Z0OPQv81MYKMUjA==, tarball: https://registry.npmjs.org/@osui/empty/-/empty-3.0.4.tgz}
+    resolution: {integrity: sha512-HnjwUyyH6/qhRUSapbTw31oQmBXiC0UcfKB6xtijC6WJri4ewdsn27A0gjrVGqDbqgMqkX5Z0OPQv81MYKMUjA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@osui/empty/-/empty-3.0.4.tgz}
     id: registry.npmjs.org/@osui/empty/3.0.4
     name: '@osui/empty'
     version: 3.0.4
@@ -39262,7 +38888,7 @@ packages:
     dev: true
 
   registry.npmjs.org/@osui/icloud-theme@3.0.4(antd@5.13.3):
-    resolution: {integrity: sha512-al3exsCmBx19rIBaAgDrHJlWxnxDVGasH2ejIOac6Ai43IFYAt+fn0vWvr4MmIZDFogsNw9P5udyhFG04Qtt9g==, tarball: https://registry.npmjs.org/@osui/icloud-theme/-/icloud-theme-3.0.4.tgz}
+    resolution: {integrity: sha512-al3exsCmBx19rIBaAgDrHJlWxnxDVGasH2ejIOac6Ai43IFYAt+fn0vWvr4MmIZDFogsNw9P5udyhFG04Qtt9g==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@osui/icloud-theme/-/icloud-theme-3.0.4.tgz}
     id: registry.npmjs.org/@osui/icloud-theme/3.0.4
     name: '@osui/icloud-theme'
     version: 3.0.4
@@ -39273,7 +38899,7 @@ packages:
     dev: true
 
   registry.npmjs.org/@osui/icons@3.0.4(react@17.0.2):
-    resolution: {integrity: sha512-I6Zi97O8dnuFXMWM89tCf4A2sqdIISGWSPu9bDjGgaIal0CGX64+MJWB8Jbqtm+KBbrGJ05cDQ4/bkN6syeW1w==, tarball: https://registry.npmjs.org/@osui/icons/-/icons-3.0.4.tgz}
+    resolution: {integrity: sha512-I6Zi97O8dnuFXMWM89tCf4A2sqdIISGWSPu9bDjGgaIal0CGX64+MJWB8Jbqtm+KBbrGJ05cDQ4/bkN6syeW1w==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@osui/icons/-/icons-3.0.4.tgz}
     id: registry.npmjs.org/@osui/icons/3.0.4
     name: '@osui/icons'
     version: 3.0.4
@@ -39285,7 +38911,7 @@ packages:
     dev: true
 
   registry.npmjs.org/@osui/space@3.0.4(antd@5.13.3)(react-dom@17.0.2)(react@17.0.2):
-    resolution: {integrity: sha512-tWShldHwOZRSgSSQBcBhNM34NfGJG1FCHEsW11fzYbj/rHPfqUTHz5GDJTPhoDQjMEiVB2HkpfKWzsEs5JzGDA==, tarball: https://registry.npmjs.org/@osui/space/-/space-3.0.4.tgz}
+    resolution: {integrity: sha512-tWShldHwOZRSgSSQBcBhNM34NfGJG1FCHEsW11fzYbj/rHPfqUTHz5GDJTPhoDQjMEiVB2HkpfKWzsEs5JzGDA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@osui/space/-/space-3.0.4.tgz}
     id: registry.npmjs.org/@osui/space/3.0.4
     name: '@osui/space'
     version: 3.0.4
@@ -39301,7 +38927,7 @@ packages:
     dev: true
 
   registry.npmjs.org/@osui/theme@3.0.4(antd@5.13.3):
-    resolution: {integrity: sha512-XRWgCNI5sXM0k9cufXE95GiwHDYVJQz70J1B19/R4k10MYNK1A64j3EngHvUrgeR4K95pTh2L+7udUpLSE3tNg==, tarball: https://registry.npmjs.org/@osui/theme/-/theme-3.0.4.tgz}
+    resolution: {integrity: sha512-XRWgCNI5sXM0k9cufXE95GiwHDYVJQz70J1B19/R4k10MYNK1A64j3EngHvUrgeR4K95pTh2L+7udUpLSE3tNg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@osui/theme/-/theme-3.0.4.tgz}
     id: registry.npmjs.org/@osui/theme/3.0.4
     name: '@osui/theme'
     version: 3.0.4
@@ -39312,7 +38938,7 @@ packages:
     dev: true
 
   registry.npmjs.org/@osui/version@3.0.4(antd@5.13.3)(react-dom@17.0.2)(react@17.0.2):
-    resolution: {integrity: sha512-viGA3NYi0ZFKrkQaVlHFcYsEzESFUxYO4V8JBMQAwr2IhXM2bvjQw9Li83pkWMEtuyzEJA5YI+CBDMRUi0zUOA==, tarball: https://registry.npmjs.org/@osui/version/-/version-3.0.4.tgz}
+    resolution: {integrity: sha512-viGA3NYi0ZFKrkQaVlHFcYsEzESFUxYO4V8JBMQAwr2IhXM2bvjQw9Li83pkWMEtuyzEJA5YI+CBDMRUi0zUOA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@osui/version/-/version-3.0.4.tgz}
     id: registry.npmjs.org/@osui/version/3.0.4
     name: '@osui/version'
     version: 3.0.4
@@ -39325,3 +38951,7 @@ packages:
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
     dev: true
+
+settings:
+  autoInstallPeers: false
+  excludeLinksFromLockfile: false

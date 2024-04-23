@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0-alpha.2](https://gitee.com/gitee-fe/osui/tree/master/compare/v3.0.4...v3.1.0-alpha.2) (2024-04-23)
+
+
+### Bug Fixes
+
+* 修复build demo ([9d38e39](https://gitee.com/gitee-fe/osui/tree/master/commits/9d38e3990366fccf73e65f25be5c34b9760aad93))
+
+
+
+
+
 # 3.1.0-alpha.1 (2024-04-16)
 
 

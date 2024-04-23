@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0-alpha.2](https://gitee.com/gitee-fe/osui/tree/master/compare/v3.0.4...v3.1.0-alpha.2) (2024-04-23)
+
+
+### Bug Fixes
+
+* 修复tree-select依赖问题 ([9b5fc94](https://gitee.com/gitee-fe/osui/tree/master/commits/9b5fc94c2907520100ba659fc5f11d24efc8c3fa))
+
+
+
+
+
 # 3.1.0-alpha.1 (2024-04-16)
 
 

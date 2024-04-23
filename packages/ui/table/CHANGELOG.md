@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0-alpha.2](https://gitee.com/gitee-fe/osui/tree/master/compare/v3.0.4...v3.1.0-alpha.2) (2024-04-23)
+
+
+### Bug Fixes
+
+* 修复loading ([6f46044](https://gitee.com/gitee-fe/osui/tree/master/commits/6f46044201b56e57fcf32b2618b2554b15394593))
+* 修复peer ([d069841](https://gitee.com/gitee-fe/osui/tree/master/commits/d069841e55f1287ab3e98c4e0a70db14b994e1b7))
+
+
+
+
+
 # 3.1.0-alpha.1 (2024-04-16)
 
 

@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0-alpha.2](https://github.com/yuxuan/osui/compare/v3.0.4...v3.1.0-alpha.2) (2024-04-23)
+
+
+### Bug Fixes
+
+* 修复build demo ([c1d7eaa](https://github.com/yuxuan/osui/commit/c1d7eaacaffa910fac2d853fe4727708e891079f))
+* 修复build demo ([9d38e39](https://github.com/yuxuan/osui/commit/9d38e3990366fccf73e65f25be5c34b9760aad93))
+* 修复build demo ([f756a93](https://github.com/yuxuan/osui/commit/f756a93374fea2d98963959d32a7324deecad4f5))
+* 修复build demo ([5c0d037](https://github.com/yuxuan/osui/commit/5c0d03750fd73f7f97f29a66fdfa0ba6dada977b))
+* 修复build demo ([da53623](https://github.com/yuxuan/osui/commit/da5362307829118a10347d66b2294ef14c77b3b3))
+* 修复build demo ([2bb6ffe](https://github.com/yuxuan/osui/commit/2bb6ffe722178d5dd2a5a337fc12c0b932a49494))
+* 修复loading ([6f46044](https://github.com/yuxuan/osui/commit/6f46044201b56e57fcf32b2618b2554b15394593))
+* 修复peer ([d069841](https://github.com/yuxuan/osui/commit/d069841e55f1287ab3e98c4e0a70db14b994e1b7))
+* 修复tag ([5a290d2](https://github.com/yuxuan/osui/commit/5a290d2ab8db9e7f667c5ac9c0321ff1eb0d46a6))
+* 修复tree-select依赖问题 ([9b5fc94](https://github.com/yuxuan/osui/commit/9b5fc94c2907520100ba659fc5f11d24efc8c3fa))
+* 修复types ([41948c2](https://github.com/yuxuan/osui/commit/41948c257454f09b3a4903f1edd6d77c79a55cbb))
+
+
+
+
+
 # 3.1.0-alpha.1 (2024-04-16)
 
 
