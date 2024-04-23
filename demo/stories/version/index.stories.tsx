@@ -8,7 +8,10 @@ export default {
 
 export const Demo = () => {
     return (
-        <h1>Antd Version: {version}</h1>
+        <>
+            <h1>Antd Version: {version}</h1>
+            {/* <h1>OSUI Version: {osuiVersion}</h1> */}
+        </>
     );
 };
 

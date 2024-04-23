@@ -18,6 +18,7 @@ export const Demo = () => {
             <Divider>展示</Divider>
             <Alert
                 message="弹性公网IP（EIP）需绑定在负载均衡（BLB）或预付费云服务器（BCC）上方可进行备案。"
+                closable
             />
             <br />
             <Alert
@@ -51,6 +52,14 @@ export const Demo = () => {
                 message="弹性公网IP（EIP）需绑定在负载均衡（BLB）或预付费云服务器（BCC）上方可进行备案。"
                 type="info"
                 showIcon
+            />
+            <br />
+            <Alert
+                type="info"
+                closable
+                showIcon
+                message="无效参数已清除"
+                description="参数【】【】，由于参数管理模块配置更新，已被清楚。本页面只展示有效参数"
             />
         </BrandProvider>
     );

@@ -1,6 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
-import version from '@osui/version';
+import version, {osuiVersion} from '@osui/version';
 
 export default {
     title: 'FE/version',
@@ -8,7 +8,10 @@ export default {
 
 export const Demo = () => {
     return (
-        <h1>Antd Version: {version}</h1>
+        <>
+            <h1>Antd Version: {version}</h1>
+            <h1>OSUI Version: {osuiVersion}</h1>
+        </>
     );
 };
 

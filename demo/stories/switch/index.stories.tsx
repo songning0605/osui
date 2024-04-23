@@ -47,11 +47,11 @@ export const Demo = () => {
 
 export const Size = () => {
     return (
-        <>
+        <BrandProvider>
             <Switch defaultChecked />
             <br />
             <Switch size="small" defaultChecked />
-        </>
+        </BrandProvider>
     );
 };
 
