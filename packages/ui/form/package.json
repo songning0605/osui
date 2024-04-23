@@ -82,10 +82,13 @@
         "vite": "^4.5.0"
     },
     "peerDependencies": {
-        "@osui/brand-provider": "^2.1.0",
         "antd": "^5.0.0",
         "react": ">=17.0.0",
         "react-dom": ">=17.0.0"
+    },
+    "dependencies": {
+        "@osui/brand-provider": "^3.1.0-alpha.2",
+        "classnames": "^2.3.1"
     },
     "repository": {
         "type": "git",
@@ -98,8 +101,5 @@
         "registry": "https://registry.npmjs.com"
     },
     "gitHead": "a9b8eb0a08430c6a35bd7f6553c3e583021eb96f",
-    "dependencies": {
-        "classnames": "^2.3.1"
-    },
     "packageManager": "pnpm@8.10.2"
 }
