@@ -82,6 +82,9 @@ export const components: ThemeConfig['components'] = {
         colorBgSpotlight: '#fff',
         colorTextLightSolid: '#151B26',
     },
+    Tabs: {
+        fontSize: 14,
+    },
     Breadcrumb: {
         colorBgTextHover: 'transparent',
         colorTextDescription: '#5c5f66',
