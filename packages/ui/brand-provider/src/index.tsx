@@ -1,15 +1,19 @@
 import React, {
     useContext, useState, useEffect,
-    useRef, useCallback,
+    useRef, useCallback, FC,
 } from 'react';
 import {ConfigProvider, ThemeConfig, App} from 'antd';
 import Empty from '@osui/empty';
 import zhCN from 'antd/locale/zh_CN';
 import {ConfigProviderProps} from 'antd/es/config-provider';
+import tokens from '@osui/icloud-theme/dist/theme/tokens';
 import {acud} from './overwriteAntdToken';
 import {mergeTheme} from './mergeTheme';
 import {components} from './themeComponents';
-
+import {
+    config, SetStaticMethodStyle, type Config,
+} from './SetStaticMethodStyle';
+// const {useToken} = theme;
 // 目前只支持一个主题
 type Brand = 'icloud';
 
@@ -18,6 +22,8 @@ export interface BrandContextValue {
     designToken?: ThemeConfig;
     setTheme: ((theme: ThemeConfig) => ThemeConfig)
     | ((theme: ThemeConfig) => void);
+    // hashId: string;
+    // setHashId: (v: string) => void;
 }
 
 export const BrandContext = React.createContext<BrandContextValue>({
@@ -27,10 +33,17 @@ export const BrandContext = React.createContext<BrandContextValue>({
         console.warn('空函数');
         return {};
     },
+    // hashId: 'osui-not-get-antd-hashId',
+    // setHashId: () => {
+    //     console.error('do nothing');
+    // }
 });
 
-const theme: ThemeConfig = {
-    token: acud,
+const defaultTheme: ThemeConfig = {
+    token: {
+        ...acud,
+        ...tokens,
+    },
     components,
 };
 
@@ -53,14 +66,34 @@ const iCloudConfigs: ConfigProviderProps = {
     locale: zhCN,
 };
 
-const BrandProvider: React.FC<React.PropsWithChildren<{
+export const useBrandContext = () => useContext(BrandContext);
+
+// const SetHashIdNullDom = memo(
+//     () => {
+//         const {setHashId, hashId: OsuiHashId } = useBrandContext() || {};
+//         const { hashId } = useToken();
+//         useEffect(
+//             () => {
+//                 if (hashId && OsuiHashId !== hashId) {
+//                     setHashId(hashId);
+//                 }
+//             }, [hashId, setHashId]
+//         )
+//         return <></>;
+//     }
+// );
+
+const BrandProvider: FC<{
     brand?: Brand;
     theme?: Partial<ThemeConfig>;
-} & ConfigProviderProps>> = (
+} & ConfigProviderProps> & {
+    config: Config;
+} = (
     {brand, theme: outerTheme, children, ...ConfigProviderProps}
 ) => {
     const themeFromHook = useRef<ThemeConfig>({});
-    const [finalTheme, setTheme] = useState(theme);
+    const [finalTheme, setTheme] = useState(defaultTheme);
+    // const [hashId, setHashId] = useState<string>('osui-not-get-antd-hashId');
 
     useEffect(
         () => {
@@ -68,7 +101,7 @@ const BrandProvider: React.FC<React.PropsWithChildren<{
                 themeFromHook.current,
                 mergeTheme(
                     outerTheme,
-                    theme
+                    defaultTheme
                 )
             );
             // 合并优先级
@@ -99,11 +132,16 @@ const BrandProvider: React.FC<React.PropsWithChildren<{
         brand,
         designToken: finalTheme,
         setTheme: setThemeOutside,
+        // hashId,
+        // setHashId,
     };
+
     return (
         <BrandContext.Provider value={context}>
             <ConfigProvider {...iCloudConfigs} {...ConfigProviderProps} theme={finalTheme}>
                 <App>
+                    {/* <SetHashIdNullDom /> */}
+                    <SetStaticMethodStyle />
                     {children}
                 </App>
             </ConfigProvider>
@@ -111,8 +149,8 @@ const BrandProvider: React.FC<React.PropsWithChildren<{
     );
 };
 
-export const useBrandContext = () => useContext(BrandContext);
+BrandProvider.config = config;
 
 export default BrandProvider;
 
-export const osuiThemeConfig = theme;
+export const osuiThemeConfig = defaultTheme;
