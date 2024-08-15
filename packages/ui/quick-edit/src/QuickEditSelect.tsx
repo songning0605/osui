@@ -7,7 +7,7 @@ import {useDerivedState} from '@huse/derived-state';
 import hoistNonReactStatics from 'hoist-non-react-statics';
 import {ConfigProvider, theme} from 'antd';
 import QuickEditDisplay from './QuickEditDisplay';
-import './index.less';
+// import './index.less';
 import {useStyle} from './style';
 
 const clsPrefix = 'osui-quick-edit';
@@ -86,7 +86,7 @@ const QuickEditSelect = (props: QuickEditSelectProps) => {
     const cssVar = theme?.cssVar;
     const prefixCls = getPrefixCls('quickEdit', props.prefixCls);
     const wrapSSROsui = useStyle(clsPrefix, prefixCls, cssVar);
-    const {hashId} = useToken;
+    const {hashId} = useToken();
     const handleDisplay = useCallback(
         value => {
             if (display) {

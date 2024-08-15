@@ -29,7 +29,6 @@ export const genAutoCompleteStyle: (props: {
     selectAntdprefixCls: string;
 }) => CSSObject[] =
     ({clsPrefix, token, selectAntdprefixCls}) => {
-        console.log(`.${selectAntdprefixCls}-item-option-active`);
         return [{
             [`.${clsPrefix}-dropdown`]: {
                 [`.${selectAntdprefixCls}-item-option-active:not(.${selectAntdprefixCls}-item-option-disabled`]: {
@@ -54,6 +53,7 @@ export const useStyle = (
     clsPrefix: string,
     prefixCls: string,
     cssVar: ThemeConfig['cssVar'],
+    antPrefix: string,
     selectAntdprefixCls: string
 ) => {
     const outTheme = useBrandContext();
@@ -72,8 +72,9 @@ export const useStyle = (
             cssVar: cssVar
                 ? {
                     prefix: (typeof cssVar === 'object'
-                        && cssVar.prefix)
-                        || 'ant',
+                        && typeof cssVar.prefix === 'string')
+                        ? cssVar.prefix
+                        : antPrefix,
                 }
                 : undefined,
         }

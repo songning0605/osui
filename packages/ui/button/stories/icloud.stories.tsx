@@ -9,7 +9,8 @@ import BrandProvider from '@osui/brand-provider';
 import {version} from 'antd';
 import Button from '../src';
 import {MinWidth} from './icloud-demo';
-import './index.less';
+// import './index.less';
+import './index.css';
 
 const Blockquote = ({children}) => (
     <blockquote style={{
@@ -30,17 +31,16 @@ export default {
 };
 
 export const Demo = () => {
-    const [cssVar, setCssVar] = useState(false);
+    const [cssVar, setCssVar] = useState(true);
     const theme = {
         cssVar: cssVar && {
-            prefix: 'tna',
+            prefix: '',
             key: 'tluafed',
         },
     };
     return (
         <BrandProvider
             theme={theme as any}
-            prefixCls="tna"
         >
             <Blockquote>
                 UE要求两个字时中间没有空格，通过antd ConfigProvider来配置autoInsertSpaceInButton: false。

@@ -28,11 +28,11 @@
     ],
     "devDependencies": {
         "@babel/cli": "^7.10.5",
-        "@osui/brand-provider": "^3.1.0-alpha.2",
-        "@osui/divider": "^3.1.0-alpha.2",
-        "@osui/icloud-theme": "^3.1.0-alpha.2",
-        "@osui/icons": "^3.1.0-alpha.2",
-        "@osui/theme": "^3.1.0-alpha.2",
+        "@osui/brand-provider": "^3.1.0-alpha.14",
+        "@osui/divider": "^3.1.0-alpha.14",
+        "@osui/icloud-theme": "^3.1.0-alpha.14",
+        "@osui/icons": "^3.1.0-alpha.14",
+        "@osui/theme": "^3.1.0-alpha.14",
         "@storybook/addon-docs": "7.5.1",
         "@storybook/addon-essentials": "^7.5.1",
         "@storybook/addon-interactions": "^7.5.1",
@@ -55,7 +55,6 @@
         "enzyme": "^3.11.0",
         "identity-obj-proxy": "^3.0.0",
         "jest": "^27.0.6",
-        "less-plugin-npm-import": "^2.1.0",
         "prop-types": "^15.7.2",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
@@ -74,7 +73,7 @@
     },
     "peerDependencies": {
         "@ant-design/cssinjs": "^1.18.4",
-        "@osui/icons": "^3.0.0",
+        "@osui/icons": "^3.1.0-alpha.14",
         "antd": "^5.13.0",
         "react": ">=17.0.0",
         "react-dom": ">=17.0.0"
